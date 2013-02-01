@@ -1,4 +1,4 @@
 ISM-CodeSnippets
 ================
 
-Repository of all my code snippets I have created and use
+This is a collection of my html, css, and javascript code snippets.

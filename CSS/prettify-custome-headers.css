@@ -1,0 +1,17 @@
+.eq-docs-html, .eq-docs-css, .eq-docs-js, .eq-docs-cf { border-radius: 4px; -moz-border-radius: 4px; margin: 0; padding: 18px 0 0; position: relative; }
+.eq-docs-html:after { background-color: #0099FF; border-radius: 4px 4px 0 0; -moz-border-radius: 4px 4px 0 0; color: white; content: "HTML"; font-size: 8px; font-weight: bold; left: 1px; padding: 0 7px; position: absolute; top: -1px; width: 33px; }
+.eq-docs-css:after { background-color: #9e005d; border-radius: 4px 4px 0 0; -moz-border-radius: 4px 4px 0 0; color: white; content: "CSS"; font-size: 8px; font-weight: bold; left: 1px; padding: 0 7px; position: absolute; top: -1px; width: 33px; }
+.eq-docs-js:after { background-color: #f15501; border-radius: 4px 4px 0 0; -moz-border-radius: 4px 4px 0 0; color: white; content: "JS"; font-size: 8px; font-weight: bold; left: 1px; padding: 0 7px; position: absolute; top: -1px; width: 33px; }
+.eq-docs-cf:after { background-color: #ed2cd6; border-radius: 4px 4px 0 0; -moz-border-radius: 4px 4px 0 0; color: white; content: "CF"; font-size: 8px; font-weight: bold; left: 1px; padding: 0 7px; position: absolute; top: -1px; width: 33px; }
+
+pre.prettyprint { background: #333; color: #999; font-family: Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, Consolas, monospace; font-size: 12px; line-height: 1.5; border: 1px solid #cccccc; padding: 0 0 0 20px; }
+
+ol.linenums { background: white; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; margin-top: 0; margin-bottom: 0; }
+pre.languague-html, pre.languague-css, pre.languague-js, pre.languague-cf { border-radius: 0 4px 4px 4px; -moz-border-radius: 0 4px 4px 4px; -webkit-border-radius: 0 4px 4px 4px; }
+pre.languague-html>ol.linenums, pre.languague-css>ol.linenums, pre.languague-js>ol.linenums, pre.languague-cf>ol.linenums { border-left: 2px solid; }
+pre.languague-html>ol.linenums { border-left-color: #0099FF; }
+pre.languague-css>ol.linenums { border-left-color: #9e005d; }
+pre.languague-js>ol.linenums { border-left-color: #f15501; }
+pre.languague-cf>ol.linenums { border-left-color: #ed2cd6; }
+ol.linenums>li { padding-left: 5px; }
+ol.linenums>li:nth-child(even) { background-color: #F2F2F2; border-radius: 0 0 4px 0; -moz-border-radius: 0 0 4px 0; -webkit-border-radius: 0 0 4px 0; margin-top: 0; margin-bottom: 0; }
