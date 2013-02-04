@@ -1,0 +1,49 @@
+<aside class="eq-docs-html">
+            <pre class="prettyprint linenums languague-html">&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+    &lt;head&gt;
+        &lt;meta charset="utf-8"&gt;
+        &lt;title&gt;&lt;/title&gt;
+        &lt;link rel="stylesheet" href="css/style.css"&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;header&gt;&lt;/header&gt;
+        &lt;div role="main"&gt;&lt;/div&gt;
+        &lt;footer&gt;&lt;/footer&gt;
+        &lt;script src="js/script.js"&gt;&lt;/script&gt;
+    &lt;/body&gt;
+&lt;/html&gt;</pre>
+        </aside>
+        <aside class="eq-docs-css">
+            <pre class="prettyprint linenums languague-css">body {
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    color: #333333;
+    background-color: #ffffff;
+}
+a {
+    color: #0088cc;
+    text-decoration: none;
+}
+a:hover {
+    color: #005580;
+    text-decoration: underline;
+}</pre>
+        </aside>
+        <aside class="eq-docs-js">
+            <pre class="prettyprint linenums languague-js">var Account;
+
+Account = function(customer, cart) {
+    var _this = this;
+    this.customer = customer;
+    this.cart = cart;
+    return $('.shopping_cart').bind('click', function(event) {
+        return _this.customer.purchase(_this.cart);
+    });
+};</pre>
+        </aside>
+        <aside class="eq-docs-cf">
+            <pre class="prettyprint linenums languague-cf">&lt;cfdump var="#$${Scope:FORM|URL|SESSION|Application}#" /&gt;</pre>
+        </aside>
